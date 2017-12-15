@@ -22,13 +22,13 @@ console.log("mapped");
 
 ///2. Adding the markers
 // now add the marker here, with a popup text explaining the marker
-L.marker([-25.262, -57.581]).addTo(map)
-    .bindPopup('Asuncion, Paraguay')
+L.marker([25.063622, 121.542043]).addTo(map)
+    .bindPopup('Taipei, Taiwan')
     .addTo(map);
 
 ///3. Adding the layer data to be mapped
 // calling the data to be mapped, that is in this case, stored within the Github repo data folder
-var Paraguay_Department = "https://raw.githubusercontent.com/GeoAdaptive/Resources_library/master/Example_Paraguay/data/ADM_PRY_DEP.geojson?token=AgSQK2E68ldQRZyJTVEkUhY-YQb960hYks5aNCaMwA%3D%3D";
+var Paraguay_Department = "https://raw.githubusercontent.com/bonniewang222/test2/master/data/departmnet1.geojson";
 
 //use this function to download and create mappable objects
 $(document).ready(function(){
